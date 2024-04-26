@@ -14,7 +14,6 @@ class Program
             try
             {
                 WriteDirectoryContents(directoryPath, directoryPath, writer); // sends data to start the write process
-                Environment.Exit(0); // just cloes the exe after the process is done
             }
             catch (Exception ex)
             {
